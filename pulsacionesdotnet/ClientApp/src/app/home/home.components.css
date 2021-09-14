@@ -1,0 +1,79 @@
+.corazon {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+#li:hover {
+    background-color: rgb(182, 64, 43);
+    color: white;
+}
+
+#li:active {
+    transform: translateY(4px);
+}
+
+a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.p-pulsacion {
+    margin-left: 560px;
+    margin-right: 60px;
+    text-align: justify;
+    position: absolute;
+    top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.muñeca {
+    width: 30%;
+    position: absolute;
+    margin-top: 750px;
+    right: 850px;
+}
+
+.cuello {
+    position: absolute;
+    width: 30%;
+    margin-top: 980px;
+    right: 850px;
+}
+
+.frecuencia {
+    position: absolute;
+    width: 30%;
+    margin-top: 95%;
+    right: 60%;
+    height: 20%;
+}
+
+.social {
+    margin-top: 92%;
+    background-color: rgb(0, 0, 0);
+}
+
+.social .footer {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links i {
+    margin-bottom: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 2rem;
+}
